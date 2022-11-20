@@ -124,4 +124,3 @@ def show():
     d = csv1.to_dict('split')
     
     return render_template('show.html',data = d['data'])
-app.run(debug=True)
