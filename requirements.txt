@@ -1,0 +1,9 @@
+Flask
+gunicorn
+face_recoginition
+numpy
+pandas
+PIL
+IPython.display
+opencv-python
+werkzeug
