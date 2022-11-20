@@ -20,7 +20,7 @@ docutils          ==0.19
 entrypoints       ==0.4
 executing         ==1.2.0
 face-recognition  >=1.3.0
-face-recognition-m==0.3.0
+face-recognition-m>=0.3.0
 fastjsonschema    ==2.16.2
 filelock          ==3.8.0
 Flask             ==2.2.2
