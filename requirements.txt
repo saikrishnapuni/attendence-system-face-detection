@@ -15,7 +15,7 @@ decorator         ==5.1.1
 defusedxml        ==0.7.1
 distlib           ==0.3.6
 Django            ==4.0.1
-dlib              ==19.22.99
+dlib              >=19.22.99
 docutils          ==0.19
 entrypoints       ==0.4
 executing         ==1.2.0
