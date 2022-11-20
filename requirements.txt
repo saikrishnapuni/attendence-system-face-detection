@@ -1,6 +1,6 @@
 Flask
 gunicorn
-face_recoginition
+face_recoginition == 1.2.3
 numpy
 pandas
 PIL
