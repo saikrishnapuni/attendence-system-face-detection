@@ -16,14 +16,16 @@ path ='train'
 known_face_encodings= []
 known_face_names = []
 mylist = os.listdir(path)
+print(mylist)
 for cls in mylist:
     curimg = cv2.imread(f'{path}/{cls}')
     
     
     face_1 = curimg
-    face_1_encoding = face_recognition.face_encodings(face_1)[0]
-    known_face_encodings.append(face_1_encoding)
-    known_face_names.append(os.path.splitext(cls)[0])
+    if(face_recognition.face_encodings(face_1)!=[]):
+        face_1_encoding = face_recognition.face_encodings(face_1)[0]
+        known_face_encodings.append(face_1_encoding)
+        known_face_names.append(os.path.splitext(cls)[0])
 
 
  
